@@ -1,0 +1,52 @@
+/* BREAKPOINTS 
+
+960
+
+740
+
+*/
+
+@media only screen and (max-width: 739px) {
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+
+  .intro {
+    padding: 60px 0;
+  }
+}
+
+@media(min-width: 740px) and (max-width: 980px) {
+ .sobre-container {
+    max-width: 720px;
+  }
+  
+  .sobre-item {
+    width: 340px;
+  }
+
+  .produtos-container {
+    max-width: 720px;
+  }
+  .produtos-item {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+  .sobre-container {
+    max-width: 300px;
+  }
+  .sobre-item {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .produtos-container {
+    max-width: 300px;
+  }
+  .produtos-item {
+    margin: 0 auto 20px 10px;
+  }
+}
