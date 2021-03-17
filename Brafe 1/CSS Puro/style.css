@@ -229,6 +229,7 @@ h2.produtos-mineiros::before {
 /* fix para não permitir items flutuarem ao lado dele */
 .locais-item {
   clear: both;
+	margin: 60px auto;
 }
 /* fim-fix */
 
