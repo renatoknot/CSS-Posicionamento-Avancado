@@ -1,0 +1,69 @@
+/* RESET */
+
+body,
+p,
+h1,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #252525;
+  background: #e7e4d8;
+}
+
+/* Border-Box: As propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin. */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  background: #d6d3c8;
+  padding: 20px;
+}
+
+/* CLEARFIX */
+.header::before,
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-menu ul {
+  float: right;
+}
+
+.header-menu li {
+  display: inline-block;
+}
+
+.header-menu li a {
+  color: #252525;
+  font-size: 1.125em;
+  padding: 0 10px;
+}
+
+.header-menu li:first-child a {
+  padding-left: 0;
+}
