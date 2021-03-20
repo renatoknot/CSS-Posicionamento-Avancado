@@ -69,3 +69,78 @@ header a {
 .header-menu li:first-child a::before {
   content: "";
 }
+
+/* CONTEÚDO */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* FILTRO */
+
+.filtro {
+  background: #e7e4d8;
+  border: 3px solid #d6d3c8;
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px;
+  float: left;
+}
+
+.filtro h2 {
+  font-size: 1.25em;
+  padding: 10px 0;
+}
+
+.filtro ul {
+  border-top: 3px solid #c0beb4;
+  border-bottom: 3px solid #c0beb4;
+  padding: 10px 0;
+}
+
+.filtro li {
+  font-style: italic;
+  font-size: 1.125em;
+  line-height: 2;
+}
+
+.filtro li::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #c0beb4;
+  float: right;
+  margin-top: 5px;
+}
+
+.sabor {
+  overflow: hidden;
+}
+
+.sabor span {
+  display: inline-block;
+  text-indent: -200px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: currentColor;
+  vertical-align: middle;
+}
+
+.sabor-3 {
+  color: #492901;
+  box-shadow: 20px 0 0 0 #492901, 40px 0 0 0 #492901; /* Sombra do circulo */
+}
+
+.sabor-4 {
+  color: #c17139;
+  box-shadow: 20px 0 0 0 #c17139, 40px 0 0 0 #c17139, 60px 0 0 0 #c17139; /* Sombra do circulo */
+}
+
+.sabor-5 {
+  color: #d7a54d;
+  box-shadow: 20px 0 0 0 #d7a54d, 40px 0 0 0 #d7a54d, 60px 0 0 0 #d7a54d,
+    80px 0 0 0 #d7a54d; /* Sombra do circulo */
+}
