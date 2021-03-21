@@ -12,7 +12,7 @@ Ficou claro como o Flexbox, frameworks de CSS como o Bootstrap, e o CSS Grid que
 - Flexbox
 - Bootstrap 4
 
-#Layouts
+# Layouts
 
 #### Brafé 1
 
